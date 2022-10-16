@@ -133,10 +133,18 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <AppDesigner Include="My Project\" />
-    <None Include="UseNewVersionOfWebBrowserX64.reg" />
-    <None Include="UseNewVersionOfWebBrowserX64_IE10.reg" />
-    <None Include="UseNewVersionOfWebBrowserX86.reg" />
-    <None Include="UseNewVersionOfWebBrowserX86_IE10.reg" />
+    <None Include="UseNewVersionOfWebBrowserX64.reg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="UseNewVersionOfWebBrowserX64_IE10.reg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="UseNewVersionOfWebBrowserX86.reg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="UseNewVersionOfWebBrowserX86_IE10.reg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
